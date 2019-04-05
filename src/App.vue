@@ -17,32 +17,21 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 
-export default {
-  name: "app",
-  components: {
-    HelloWorld
-  }
-};
 </script>
 
 <style>
-* {
-  box-sizing: border-box;
-}
 
-html,
 body {
-  margin: 0;
-  padding: 0;
-  overscroll-behavior: none;
-  background-image: url("./static/bg1.jpg");
+  /* overscroll-behavior: none; */
+  background-image: url(static/bg1.jpg);
+  /* background-position: center center; */
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-}
+  background-color: #1a1a1a;
 
-.wall {
+  /* overflow: none; */
 }
 
 h1 {
